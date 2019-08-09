@@ -1,6 +1,7 @@
 :root {
     --maincolor: #6f4343;
     --conycolor: #fffff8;
+    --conyoutline: #645e5e;
 }
 
 @font-face {
@@ -71,7 +72,7 @@
 }
 
 .nose {
-    border-top: 15px solid #252323;
+    border-top: 15px solid var(--conyoutline);
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     position: absolute;
@@ -81,7 +82,7 @@
 }
 
 .bridge {
-    border-left: 2.5px solid #252323;
+    border-left: 2.5px solid var(--conyoutline);
     border-radius: 3px;
     height: 12px;
     position: absolute;
@@ -90,7 +91,7 @@
 }
 
 .mouth {
-    border-left: 3px solid #252323;
+    border-left: 3px solid var(--conyoutline);
     height: 25px;
     position: absolute;
     top: 30px;
@@ -100,7 +101,7 @@
 }
 
 .rightmouth {
-    border-left: 3px solid #252323;
+    border-left: 3px solid var(--conyoutline);
     height: 20px;
     position: absolute;
     top: 30px;
@@ -118,7 +119,7 @@
 .eyes ul li {
     display: inline-block;
     margin: 50px 7px 0 0;
-    background-color: #252323;
+    background-color: black;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -184,14 +185,14 @@
     position: absolute;
     left: 400px;
     top: 120px;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 500ms ease-in 500ms;
 }
 
 .coface {
     width: 180px;
     height: 142px;
-    border: 1.5px solid #252323;
+    border: 1.5px solid var(--conyoutline);
     border-radius: 50%; 
     background-color: var(--conycolor);
 }
@@ -200,7 +201,7 @@
     width: 30px;
     height: 70px;
     background-color: var(--conycolor);
-    border: 1.5px solid #252323;
+    border: 1.5px solid var(--conyoutline);
     border-radius: 80% 80% 0 0;
     position: relative;
     left: 45px;
@@ -240,7 +241,7 @@
 .conose {
     width: 15px;
     height: 10px;
-    border: 2px solid #252323;
+    border: 2px solid var(--conyoutline);
     border-radius: 80%;
     position: relative;
     left: 80px;
@@ -248,7 +249,7 @@
 }
 
 .cobridge {
-    border-left: 2.2px solid #252323;
+    border-left: 2.2px solid var(--conyoutline);
     border-radius: 3px;
     height: 15px;
     position: absolute;
@@ -259,7 +260,7 @@
 .conmouth {
     width: 28px;
     height: 30px;
-    border: 2.2px solid #252323; 
+    border: 2.2px solid var(--conyoutline); 
     border-radius: 0 0 30px 30px;
     background-color: #f75a5a;
     position: absolute;
@@ -306,7 +307,7 @@
     margin: 0 7px 0 0;
     width: 10px;
     height: 10px;
-    background-color: #252323;
+    background-color: black;
     border-radius: 100%;
     position: relative;
     left: 73px;
@@ -403,10 +404,10 @@
     transform: rotate(-10deg);
 }
 
-.face:hover + .question {
+/* .face:hover + .question {
     opacity: 1;
 } 
 
 .container:hover {
     opacity: 1;
-}
+} */
