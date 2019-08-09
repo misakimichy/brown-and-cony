@@ -10,7 +10,11 @@
     font-weight: 400;
     src: local('Baloo Tammudu Regular'), local('BalooTammudu-Regular'), url(https://fonts.gstatic.com/s/balootammudu/v3/mFT3Wb8Qza7c_Z5HTsC_5nxWwE1alvZV1D4.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
+
+body {
+    font-family: 'Baloo Tammudu';
+}
 
 
 /****** Brown ******/
@@ -185,7 +189,7 @@
     position: absolute;
     left: 400px;
     top: 120px;
-    opacity: 1;
+    opacity: 0;
     transition: opacity 500ms ease-in 500ms;
 }
 
@@ -311,7 +315,7 @@
     border-radius: 100%;
     position: relative;
     left: 73px;
-    top: -135px;
+    top: -155px;
 }
 
 /***** Love you part ******/
@@ -404,10 +408,10 @@
     transform: rotate(-10deg);
 }
 
-/* .face:hover + .question {
+.face:hover + .question {
     opacity: 1;
 } 
 
 .container:hover {
     opacity: 1;
-} */
+}
