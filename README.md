@@ -1,7 +1,7 @@
 # Brown and Cony
 
 ## Description
-This is a pure css project. Those characters are from messaging app from [LINE]("https://line.me/en/).
+This is a pure css project. Those characters are from messaging app from [LINE](https://line.me/en/).
 
 
 ## About this Application
@@ -10,7 +10,7 @@ This is a pure css project. Those characters are from messaging app from [LINE](
 - When you hover over Cony, the bunny, the transparent area's opacity will be changed and you can see the cony and the message clearly.
 
 ## Demo
-<iframe width=800 height=500 src="https://misakimichy.github.io/brown-and-cony/"></iframe>
+This project is available from [here](https://misakimichy.github.io/brown-and-cony/).
 
 
 ## Installation
