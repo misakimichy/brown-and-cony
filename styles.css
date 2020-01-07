@@ -374,12 +374,10 @@ body {
 }
 
 .heart:before {
-    position: absolute;
     left: -30px;
 }
 
 .heart:after {
-    position: absolute;
     bottom: 30px;
 }
 
@@ -404,11 +402,32 @@ footer {
 
 /* Responsive Design */
 @media screen and (max-width: 680px) {
-
     /* Brown */
     .face {
         margin: 100px 0px 0px 30px;
     }
 
+    /* Cony */
+    .container {
+        left: 320px;
+    }
+}
 
+@media screen and (max-width: 550px) {
+    /* Brown */
+
+    /* Cony */
+    .heart {
+        width: 40px;
+        height: 40px;
+    }
+
+    .heart:before {
+        top: 0px;
+        left: -20px;
+    }
+
+    .heart:after {
+        bottom: 20px;
+    }
 }
