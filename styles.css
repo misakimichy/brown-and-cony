@@ -411,9 +411,11 @@ footer {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 640px) {
     /* Brown */
-
+    .question {
+        left: 210px;
+    }
     /* Cony */
     .heart {
         width: 40px;
