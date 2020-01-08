@@ -23,7 +23,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Baloo Tammudu';
+    font-family: 'Baloo Tammudu', 'helvatica', 'sans-serif';
 }
 
 
@@ -151,13 +151,12 @@ body {
     display: none;
     width: 80px;
     height: 45px;
-    padding: 0 0 20px 0;
-    display: inline-block;
+    display: flex;
     border: 2px solid #403f3f;
     border-radius: 100%;
     position: relative;
     top: -200px;
-    left: 300px; 
+    left: 275px; 
     opacity: 0;
     transition: opacity 300ms ease-out 400ms;
 }
@@ -165,9 +164,8 @@ body {
 .question:before {
     content: "";
     position: absolute;
-    top: 50px;
-    left: -12px;
-    transform: rotate(-30deg);
+    top: 40px;
+    transform: rotate(-45deg);
     border-style: solid;
     border-color: transparent #403f3f transparent transparent;
     border-width: 12px 21px 0 0;
@@ -176,19 +174,20 @@ body {
 .question:after {
     content: "";
     position: absolute;
-    top: 51px;
-    left: -5px;
-    transform: rotate(-30deg);
+    top: 39px;
+    left: 5px;
+    transform: rotate(-45deg);
     border-style: solid;
     border-color: transparent white transparent transparent;
-    border-width: 7px 14px 0 0;
+    border-width: 8px 17px 0 0;
     z-index: 5;
 }
 
-.question p {
-    margin: 0;
+.question > p {
     font-size: 2.5em;
-    font-family: "Baloo Tammudu", "helvetica", "sans-serif";
+    margin-left: 30px;
+    position: absolute;
+    top: -53px;
     font-weight: bold;
     color: #ff1c1c;
     opacity: 0.8;
@@ -343,7 +342,6 @@ body {
 .love p {
     width: 200px;
     font-size: 2.8em;
-    font-family: "Baloo Tammudu", "helvetica", "sans-serif";
     font-weight: bold;
     color: #ff3e3e;
     opacity: 0.8;
